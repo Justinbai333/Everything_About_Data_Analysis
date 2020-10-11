@@ -1,6 +1,9 @@
 ### K-Means 聚类算法
 
 - **原理：**
+  使用k个点作为质心，分类Training Sample时使组内平方和（WCSS within-cluster sum of squares），即组内点到改组质心的距离的平方和最小
+
+- **步骤：**
   1. 预先设定一个k的值，确定需要多少个分组。
   2. 随机选k个点作为初始质心。(Centroid)
   3. 对分组中的每一个样本计算与质心的距离。
