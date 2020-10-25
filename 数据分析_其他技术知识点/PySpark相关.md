@@ -13,6 +13,7 @@
 
 ```Python
 sc: SparkContext PySpark的默认Entry Point
+rdd：弹性分布式数据集，代表一个不可变、可分区、里面的元素可并行计算的集合。
 
 rdd1 = sc.parallelize([1,2,3,4,5])
 
